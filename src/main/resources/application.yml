@@ -1,0 +1,12 @@
+server:
+  port: 8091
+
+s3:
+  bucket: yogarepo/test
+
+cloud:
+  aws:
+    credentials:
+      profile-name: default
+    region:
+      static: us-east-2
